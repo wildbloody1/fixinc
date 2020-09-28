@@ -1,12 +1,19 @@
 <?php
 if (!defined('_GNUBOARD_')) exit; // 개별 페이지 접근 불가
 
-if (G5_IS_MOBILE) {
-    include_once(G5_THEME_MOBILE_PATH.'/head.php');
+run_event('pre_head');
+
+if(defined('G5_THEME_PATH')) {
+    require_once(G5_THEME_PATH.'/head.php');
     return;
 }
 
-include_once(G5_THEME_PATH.'/head.sub.php');
+if (G5_IS_MOBILE) {
+    include_once(G5_MOBILE_PATH.'/head.php');
+    return;
+}
+
+include_once(G5_PATH.'/head.sub.php');
 include_once(G5_LIB_PATH.'/latest.lib.php');
 include_once(G5_LIB_PATH.'/outlogin.lib.php');
 include_once(G5_LIB_PATH.'/poll.lib.php');
@@ -27,35 +34,83 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     ?>
     <div id="tnb">
     	<div class="inner">
-    	    <a href="http://www.clfa.or.kr/popup_fcsc.asp" class="topLink">대부중개업체등록조회</a>
-    	    <div class="keyNumber">
-    	        <figure><img src="<?php echo G5_IMG_URL ?>/keyNumber.png" alt="keyNumber" /></figure>
-    	        <number>02-000-0000</number>
-    	    </div>
-    	    <!--
 			<ul id="hd_qnb">
 	            <li><a href="<?php echo G5_BBS_URL ?>/faq.php">FAQ</a></li>
 	            <li><a href="<?php echo G5_BBS_URL ?>/qalist.php">Q&A</a></li>
 	            <li><a href="<?php echo G5_BBS_URL ?>/new.php">새글</a></li>
-	            <li><a href="<?php echo G5_BBS_URL ?>/current_connect.php" class="visit">접속자<strong class="visit-num"><?php echo connect('theme/basic'); // 현재 접속자수, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정  ?></strong></a></li>
+	            <li><a href="<?php echo G5_BBS_URL ?>/current_connect.php" class="visit">접속자<strong class="visit-num"><?php echo connect(); // 현재 접속자수, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?></strong></a></li>
 	        </ul>
-	        -->
 		</div>
     </div>
     <div id="hd_wrapper">
 
         <div id="logo">
-            <a href="<?php echo G5_URL ?>">
-                <img src="<?php echo G5_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>">
-                <h3>2020-서울중랑-0031</h3>
-            </a>
+            <a href="<?php echo G5_URL ?>"><img src="<?php echo G5_IMG_URL ?>/logo.png" alt="<?php echo $config['cf_title']; ?>"></a>
         </div>
+    
+        <div class="hd_sch_wr">
+            <fieldset id="hd_sch">
+                <legend>사이트 내 전체검색</legend>
+                <form name="fsearchbox" method="get" action="<?php echo G5_BBS_URL ?>/search.php" onsubmit="return fsearchbox_submit(this);">
+                <input type="hidden" name="sfl" value="wr_subject||wr_content">
+                <input type="hidden" name="sop" value="and">
+                <label for="sch_stx" class="sound_only">검색어 필수</label>
+                <input type="text" name="stx" id="sch_stx" maxlength="20" placeholder="검색어를 입력해주세요">
+                <button type="submit" id="sch_submit" value="검색"><i class="fa fa-search" aria-hidden="true"></i><span class="sound_only">검색</span></button>
+                </form>
+
+                <script>
+                function fsearchbox_submit(f)
+                {
+                    if (f.stx.value.length < 2) {
+                        alert("검색어는 두글자 이상 입력하십시오.");
+                        f.stx.select();
+                        f.stx.focus();
+                        return false;
+                    }
+
+                    // 검색에 많은 부하가 걸리는 경우 이 주석을 제거하세요.
+                    var cnt = 0;
+                    for (var i=0; i<f.stx.value.length; i++) {
+                        if (f.stx.value.charAt(i) == ' ')
+                            cnt++;
+                    }
+
+                    if (cnt > 1) {
+                        alert("빠른 검색을 위하여 검색어에 공백은 한개만 입력할 수 있습니다.");
+                        f.stx.select();
+                        f.stx.focus();
+                        return false;
+                    }
+
+                    return true;
+                }
+                </script>
+
+            </fieldset>
+                
+            <?php echo popular(); // 인기검색어, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정  ?>
+        </div>
+        <ul class="hd_login">        
+            <?php if ($is_member) {  ?>
+            <li><a href="<?php echo G5_BBS_URL ?>/member_confirm.php?url=<?php echo G5_BBS_URL ?>/register_form.php">정보수정</a></li>
+            <li><a href="<?php echo G5_BBS_URL ?>/logout.php">로그아웃</a></li>
+            <?php if ($is_admin) {  ?>
+            <li class="tnb_admin"><a href="<?php echo correct_goto_url(G5_ADMIN_URL); ?>">관리자</a></li>
+            <?php }  ?>
+            <?php } else {  ?>
+            <li><a href="<?php echo G5_BBS_URL ?>/register.php">회원가입</a></li>
+            <li><a href="<?php echo G5_BBS_URL ?>/login.php">로그인</a></li>
+            <?php }  ?>
+
+        </ul>
     </div>
     
     <nav id="gnb">
         <h2>메인메뉴</h2>
         <div class="gnb_wrap">
             <ul id="gnb_1dul">
+                <li class="gnb_1dli gnb_mnal"><button type="button" class="gnb_menu_btn" title="전체메뉴"><i class="fa fa-bars" aria-hidden="true"></i><span class="sound_only">전체메뉴열기</span></button></li>
                 <?php
 				$menu_datas = get_menu_db(0, true);
 				$gnb_zindex = 999; // gnb_1dli z-index 값 설정용
@@ -70,7 +125,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     $k = 0;
                     foreach( (array) $row['sub'] as $row2 ){
 
-                        if( empty($row2) ) continue;
+                        if( empty($row2) ) continue; 
 
                         if($k == 0)
                             echo '<span class="bg">하위분류</span><div class="gnb_2dul"><ul class="gnb_2dul_box">'.PHP_EOL;
@@ -91,10 +146,6 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                 if ($i == 0) {  ?>
                     <li class="gnb_empty">메뉴 준비 중입니다.<?php if ($is_admin) { ?> <a href="<?php echo G5_ADMIN_URL; ?>/menu_list.php">관리자모드 &gt; 환경설정 &gt; 메뉴설정</a>에서 설정하실 수 있습니다.<?php } ?></li>
                 <?php } ?>
-                <a href="#" class="loan">
-                    <figure><img src="<?php echo G5_IMG_URL ?>/loan.png" alt="loan" /></figure>
-                    <p>대출가능한도조회</p>
-                </a>
             </ul>
             <div id="gnb_all">
                 <h2>전체메뉴</h2>
@@ -154,13 +205,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
 
 <!-- 콘텐츠 시작 { -->
 <div id="wrapper">
-
-    <div id="form_banner">
-        <? include_once(G5_PATH."/formmail.php") ?>
-    </div>
-
     <div id="container_wr">
    
     <div id="container">
         <?php if (!defined("_INDEX_")) { ?><h2 id="container_title"><span title="<?php echo get_text($g5['title']); ?>"><?php echo get_head_title($g5['title']); ?></span></h2><?php } ?>
-

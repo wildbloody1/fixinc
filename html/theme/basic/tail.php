@@ -7,11 +7,7 @@ if (G5_IS_MOBILE) {
 }
 ?>
 
-    </div>
-    <div id="aside">
-        <?php echo outlogin('theme/basic'); // 외부 로그인, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
-        <?php echo poll('theme/basic'); // 설문조사, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
-    </div>
+
 </div>
 
 </div>
@@ -20,40 +16,55 @@ if (G5_IS_MOBILE) {
 <hr>
 
 <!-- 하단 시작 { -->
+<div id="ft_top">
+    <dl>
+        <dt>
+        대출금리 : 연이자 24% 이내  /  연체이율 : 연 24% 이내  /  대출 중개수수료 없음<br />
+        중개수수료를 요구하거나 받는 것은 불법으로 대출과 관련된 일체 수수료를 받지 않습니다.<br />
+        취급수수료 등 기타 부대비용 없음  /  상환방법 : 원리금균등상환방식, 만기일시상환방식<br />
+        연체시 불이익 : 신용등급 하락 및 연체이자가 발생 할 수 있음<br />
+        조기상환수수료율 : 조건 없음
+        </dt>
+        <dd>
+        과도한 빚은 당신에게 큰 불행을 안겨줄 수 있습니다.<br />
+        대출시 신용등급 하락으로 다른 금융거래가 제약 받을 수 있습니다.
+        </dd>
+    </dl>
+</div>
 <div id="ft">
-
-    <div id="ft_wr">
-        <div id="ft_link" class="ft_cnt">
-            <a href="<?php echo get_pretty_url('content', 'company'); ?>">회사소개</a>
-            <a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a>
-            <a href="<?php echo get_pretty_url('content', 'provision'); ?>">서비스이용약관</a>
-            <a href="<?php echo get_device_change_url(); ?>">모바일버전</a>
+    <div id="ft_wt">
+        <ul class="ft_link">
+            <li>
+                <a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=notice">공지사항</a>
+            </li>
+            <li>
+                <a href="<?php echo G5_BBS_URL ?>/board.php?bo_table=qa">자주묻는질문</a>
+            </li>
+            <li>
+                <a href="<?php echo get_pretty_url('content', 'privacy'); ?>">개인정보처리방침</a>
+            </li>
+        </ul>
+        <div class="ft_keyNumber">
+            <figure><img src="<?php echo G5_IMG_URL ?>/keyNumber_w.png" alt="keyNumber" /></figure>
+            <number>02-000-0000</number>
         </div>
-        <div id="ft_company" class="ft_cnt">
-        	<h2>사이트 정보</h2>
-	        <p class="ft_info">
-	        	회사명 : 회사명 / 대표 : 대표자명<br>
-				주소  : OO도 OO시 OO구 OO동 123-45<br>
-				사업자 등록번호  : 123-45-67890<br>
-				전화 :  02-123-4567  팩스  : 02-123-4568<br>
-				통신판매업신고번호 :  제 OO구 - 123호<br>
-				개인정보관리책임자 :  정보책임자명<br>
-			</p>
-	    </div>
-        <?php
-        //공지사항
-        // 이 함수가 바로 최신글을 추출하는 역할을 합니다.
-        // 사용방법 : latest(스킨, 게시판아이디, 출력라인, 글자수);
-        // 테마의 스킨을 사용하려면 theme/basic 과 같이 지정
-        echo latest('theme/notice', 'notice', 4, 13);
-        ?>
-        
-		<?php echo visit('theme/basic'); // 접속자집계, 테마의 스킨을 사용하려면 스킨을 theme/basic 과 같이 지정 ?>
-	</div>      
-        <!-- <div id="ft_catch"><img src="<?php echo G5_IMG_URL; ?>/ft_logo.png" alt="<?php echo G5_VERSION ?>"></div> -->
-        <div id="ft_copy">Copyright &copy; <b>소유하신 도메인.</b> All rights reserved.</div>
-    
-    
+	</div>
+	<div id="ft_wb">
+        <ul class="info">
+            <li>회사명 : 픽스대부중개</li>
+            <li>대표이사 : 정원제</li>
+            <li>사업자등록번호 : 614-03-52292</li>
+            <li>대부중개업번호 : 2020-서울중랑-0031</li>
+            <li>주소 : 서울특별시 중랑구 동일로160길 4, 2층(목동)</li>
+            <li>등록시도명칭 : 서울시 중랑구</li>
+        </div>
+        <div id="ft_copy">
+            <p class="copyright">Copyright &copy; 픽스대부중개 All rights reserved.</p>
+            <a href="<?php echo G5_URL ?>/adm" class="adm_login">관리자 로그인</a>
+        </div>
+	</div>
+
+
     <button type="button" id="top_btn">
     	<i class="fa fa-arrow-up" aria-hidden="true"></i><span class="sound_only">상단으로</span>
     </button>
