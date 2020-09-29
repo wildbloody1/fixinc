@@ -15,8 +15,8 @@ include_once(G5_THEME_PATH.'/head.php');
     </div>
 <div id="content">
     <div class="product-box">
-        <a href="#"><img src="<?php echo G5_IMG_URL ?>/product01.jpg" alt="product"/></a>
-        <a href="#"><img src="<?php echo G5_IMG_URL ?>/product02.jpg" alt="product"/></a>
+        <a href="<?php echo G5_URL ?>/product"><img src="<?php echo G5_IMG_URL ?>/product01.jpg" alt="product"/></a>
+        <a href="<?php echo G5_URL ?>/product"><img src="<?php echo G5_IMG_URL ?>/product02.jpg" alt="product"/></a>
     </div>
     <div class="content-box">
         <ul class="contactLink">

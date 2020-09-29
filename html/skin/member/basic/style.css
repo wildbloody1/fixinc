@@ -158,8 +158,8 @@
 .btn_confirm_reg {margin:20px 0;text-align:center}
 .reg_btn_submit {display:inline-block;background:#3a8afd;color:#fff;text-align:center;border-radius:3px;width:280px;height:57px;line-height:57px;font-size:1.2em;margin:0 auto;font-weight:bold}
 
-.mb_log_cate h2 {width:50%;float:left;padding:20px 0;text-align:center}
-.mb_log_cate .join {width:50%;float:left;padding:20px 0;text-align:center;background:#f7f7f7;color:#6e6e6e}
+.mb_log_cate h2 {width:100%;font-size:20px;float:left;padding:20px 0;text-align:center}
+.mb_log_cate .join {display: none; width:50%;float:left;padding:20px 0;text-align:center;background:#f7f7f7;color:#6e6e6e}
 .mb_log_cate:after {display:block;visibility:hidden;clear:both;content:""}
 
 .tooltip_icon {display:inline-block;vertical-align:baseline;color:#b3b5b8;border:0;font-size:1.4em;background:transparent;cursor:pointer}
@@ -178,13 +178,13 @@
 #mb_login h1 {position:absolute;font-size:0;line-height:0;overflow:hidden}
 #login_fs {padding:35px}
 #mb_login #login_fs .frm_input {margin:0 0 10px}
-#mb_login #login_fs .btn_submit {margin:0 0 15px}
+#mb_login #login_fs .btn_submit {color: #fff;margin:0 0 15px;border:none;background: #323232;}
 
 #login_info {}
 #login_info:after {display:block;visibility:hidden;clear:both;content:""}
 #login_info .login_if_auto {float:left}
 #login_info .login_if_auto label {vertical-align:baseline;padding-left:5px}
-#login_info .login_if_lpl {float:right}
+#login_info .login_if_lpl {display: none; float:right}
 #login_password_lost {display:inline-block;border:1px solid #d5d9dd;color:#3a8afd;border-radius:2px;padding:2px 5px;line-height:20px}
 
 #mb_login_notmb {margin:30px auto;padding:20px 30px}

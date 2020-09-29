@@ -14,41 +14,29 @@ return $('#accept-box').attr('checked');
 });
 });
 </script>
-<script>
-$( function() {
-$( "#dialog-message" ).dialog({
-modal: true,
-buttons: {
-Ok: function() {
-$( this ).dialog( "close" );
-}
-}
-});
-} );
-  </script>
 <style>
 .wrap { width: 1000px; margin: 0 auto; }
-table { width: 360px; height: 470px; color: #323232; padding: 0 15px; border-spacing: 0; border: 5px solid #323232; background: #fff; }
-thead td { font-size: 24px; font-weight: 600; text-align: center; color: #323232; padding: 25px 0; border-bottom: 1px solid #e6e6e6; }
-tbody tr:first-child th, tbody tr:first-child td  { height: 70px; padding-top: 20px; }
-tbody tr:last-child td { padding-bottom: 20px; }
-th { width: 30%; height: 50px; color: #323232; text-align: left; padding: 0 10px; }
-th label { display: block; line-height: 32px; font-size: 14px; font-weight: 500; }
-th input[type="checkbox"] { width: 16px; height: 16px; margin-right: 5px; vertical-align: middle; }
-th label.agreecheck { display: inline-block; font-size: 13px; vertical-align: middle; }
-td { padding: 0 10px; border-spacing: 0; }
-td input, td select { width: 100%; height: 32px; font-size: 14px; color: #323232; padding: 0 10px; border: 1px solid #e6e6e6; border-radius: 3px; }
-.privacyBtn { line-height: 20px; font-size: 12px; font-weight: 400; color: #969696; padding: 5px 7px; float: right; vertical-align: middle; border: 1px solid #e6e6e6; border-radius: 3px; transition: 0.2s all ease-in-out; }
-.privacyBtn:hover { color: #323232; border-color: #323232; }
-.btn_submit { padding: 0; }
-#submitter { height: 40px; font-size: 16px; color:#fff; background:#323232; transition: 0.2s all ease-in-out; }
-#submitter:hover { background: #3a8afd; }
+#contactform table { width: 360px; height: 470px; color: #323232; padding: 0 15px; border-spacing: 0; border: 5px solid #323232; background: #fff; }
+#contactform thead td { font-size: 24px; font-weight: 600; text-align: center; color: #323232; padding: 25px 0; border-bottom: 1px solid #e6e6e6; }
+#contactform tbody tr:first-child th, tbody tr:first-child td  { height: 70px; padding-top: 20px; }
+#contactform tbody tr:last-child td { padding-bottom: 20px; }
+#contactform th { width: 30%; height: 50px; color: #323232; text-align: left; padding: 0 10px; }
+#contactform th label { display: block; line-height: 32px; font-size: 14px; font-weight: 500; }
+#contactform th input[type="checkbox"] { width: 16px; height: 16px; margin-right: 5px; vertical-align: middle; }
+#contactform th label.agreecheck { display: inline-block; font-size: 13px; vertical-align: middle; }
+#contactform td { padding: 0 10px; border-spacing: 0; }
+#contactform td input, td select { width: 100%; height: 32px; font-size: 14px; color: #323232; padding: 0 10px; border: 1px solid #e6e6e6; border-radius: 3px; }
+#contactform .privacyBtn { line-height: 20px; font-size: 12px; font-weight: 400; color: #969696; padding: 5px 7px; float: right; vertical-align: middle; border: 1px solid #e6e6e6; border-radius: 3px; transition: 0.2s all ease-in-out; }
+#contactform .privacyBtn:hover { color: #323232; border-color: #323232; }
+#contactform .btn_submit { padding: 0; }
+#contactform #submitter { height: 40px; font-size: 16px; color:#fff; background:#323232; transition: 0.2s all ease-in-out; }
+#contactform #submitter:hover { background: #73b27c; }
 </style>
 </head>
 
 <body>
 <div class="wrap">
-<form id="contactform" name="contactform" method="post" action="send.php">
+<form id="contactform" name="contactform" method="post" action="/send.php">
 <table cellpadding="0" cellspacing="0">
 <thead>
 <tr>

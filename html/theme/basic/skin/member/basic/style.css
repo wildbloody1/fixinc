@@ -158,8 +158,8 @@
 .btn_confirm_reg {margin:20px 0;text-align:center}
 .reg_btn_submit {display:inline-block;background:#3a8afd;color:#fff;text-align:center;border-radius:3px;width:280px;height:57px;line-height:57px;font-size:1.2em;margin:0 auto;font-weight:bold}
 
-.mb_log_cate h2 {width:50%;float:left;padding:20px 0;text-align:center}
-.mb_log_cate .join {width:50%;float:left;padding:20px 0;text-align:center;background:#f7f7f7;color:#6e6e6e}
+.mb_log_cate h2 {width:100%;font-size:20px;float:left;padding:20px 0;text-align:center}
+.mb_log_cate .join {display: none; width:50%;float:left;padding:20px 0;text-align:center;background:#f7f7f7;color:#6e6e6e}
 .mb_log_cate:after {display:block;visibility:hidden;clear:both;content:""}
 
 .tooltip_icon {display:inline-block;vertical-align:baseline;color:#b3b5b8;border:0;font-size:1.4em;background:transparent;cursor:pointer}
