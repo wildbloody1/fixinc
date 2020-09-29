@@ -22,35 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/html/formmail_limit.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/loanlimit/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html/send_limit.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/formmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/formmail.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/product/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/product/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/skin/board/basic/list.skin.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/skin/board/basic/list.skin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/skin/board/basic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/skin/board/basic/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/skin/board/basic/view.skin.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/skin/board/basic/view.skin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/skin/board/gallery/view_comment.skin.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/skin/board/gallery/view_comment.skin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/skin/content/basic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/skin/content/basic/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/skin/member/basic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/skin/member/basic/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/theme/basic/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/theme/basic/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/theme/basic/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/theme/basic/skin/member/basic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/skin/member/basic/style.css" afterDir="false" />
-    </list>
+    <list default="true" id="53fb0e7b-df2b-42a2-a58e-7b1717e4a579" name="Default Changelist" comment="merged" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1i7KbJZVqsxKN0pk5S8ppVM6M3Z" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
