@@ -53,9 +53,16 @@ border:1px solid #558ab7 !important;
 #hd_wrapper,
 #tnb .inner,
 
-#gnb .gnb_wrap { width: 100%; }
 #container_wr,
-#ft_wr {width: 1000px; }
+#gnb .gnb_wrap {
+  position: relative;
+  width: 100%;
+}
+#ft_wr {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
 
 /* 팝업레이어 */
 #hd_pop {z-index:1000;position:relative;margin:0 auto;height:0}
@@ -227,10 +234,58 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 #container_wr {margin:0 auto;height:100%;zoom:1}
 #aside {float:right;width:235px;padding:0;height:100%;margin:20px 0 20px 20px}
 
-#container {position:relative;float:left;min-height:500px;height:auto !important;margin:20px 0;height:500px;font-size:1em;width:930px;zoom:1}
+#container {
+  position: relative;
+  width: 100%;
+  height: auto !important;
+  min-height: 500px;
+  margin: 0;
+  float: left;
+  zoom:1
+}
 #container:after {display:block;visibility:hidden;clear:both;content:""}
 #container_title {font-size:1.333em;margin:0 auto;font-weight:bold}
 #container_title span {margin:0 auto 10px;display:block;line-height:30px}
+
+#content {
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+#content .product-box:after {
+  display:block;visibility:hidden;clear:both;content:"";
+}
+#content .product-box a {
+  float: left;
+}
+#content .product-box a + a {
+  margin-left: 20px;
+}
+#content .content-box {
+  width: 100%;
+  padding: 20px 0 0;
+}
+#content .content-box:after,
+#content .contactLink:after {
+  display:block; visibility:hidden; clear:both;content:"";
+}
+#content .contactLink {
+  width: 665px;
+  float: left;
+}
+#content .contactLink li {
+  float: left;
+  margin: 0 5px 5px 0;
+}
+#content .contactLink li:nth-child(2n) {
+  margin: 0 0 5px;
+}
+#content .content-box > figure {
+  float: left;
+  margin-left: 5px;
+}
+
 
 .lt_wr {width:32%}
 .lt_wr:nth-child(3n+1) {clear:both}

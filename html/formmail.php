@@ -14,6 +14,18 @@ return $('#accept-box').attr('checked');
 });
 });
 </script>
+<script>
+$( function() {
+$( "#dialog-message" ).dialog({
+modal: true,
+buttons: {
+Ok: function() {
+$( this ).dialog( "close" );
+}
+}
+});
+} );
+  </script>
 <style>
 .wrap { width: 1000px; margin: 0 auto; }
 table { width: 360px; height: 470px; color: #323232; padding: 0 15px; border-spacing: 0; border: 5px solid #323232; background: #fff; }
@@ -26,6 +38,8 @@ th input[type="checkbox"] { width: 16px; height: 16px; margin-right: 5px; vertic
 th label.agreecheck { display: inline-block; font-size: 13px; vertical-align: middle; }
 td { padding: 0 10px; border-spacing: 0; }
 td input, td select { width: 100%; height: 32px; font-size: 14px; color: #323232; padding: 0 10px; border: 1px solid #e6e6e6; border-radius: 3px; }
+.privacyBtn { line-height: 20px; font-size: 12px; font-weight: 400; color: #969696; padding: 5px 7px; float: right; vertical-align: middle; border: 1px solid #e6e6e6; border-radius: 3px; transition: 0.2s all ease-in-out; }
+.privacyBtn:hover { color: #323232; border-color: #323232; }
 .btn_submit { padding: 0; }
 #submitter { height: 40px; font-size: 16px; color:#fff; background:#323232; transition: 0.2s all ease-in-out; }
 #submitter:hover { background: #3a8afd; }
@@ -96,6 +110,7 @@ td input, td select { width: 100%; height: 32px; font-size: 14px; color: #323232
 <th colspan="2">
 <input id="accept-box" name="accept" type="checkbox" value="0">
 <label class="agreecheck" for="accept-box">개인정보수집 / 이용약관에 동의합니다.</label>
+<a href="<?php echo get_pretty_url('content', 'privacy'); ?>" class="privacyBtn" target="_blank" >약관보기</a>
 </th>
 </tr>
 

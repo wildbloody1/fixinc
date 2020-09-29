@@ -60,7 +60,7 @@ if (G5_IS_MOBILE) {
         </div>
         <div id="ft_copy">
             <p class="copyright">Copyright &copy; 픽스대부중개 All rights reserved.</p>
-            <a href="<?php echo G5_URL ?>/adm" class="adm_login">관리자 로그인</a>
+            <a href="<?php echo G5_URL ?>/adm" class="adm_login" target="_blank">관리자 로그인</a>
         </div>
 	</div>
 

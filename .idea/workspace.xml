@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,7 +22,21 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="" />
+    <list default="true" id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/html/img/con_call.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/con_fss.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/con_kakao.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/con_minwon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/con_nateon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/product01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/product02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/formmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/formmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/tail.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/tail.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,7 +63,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/theme" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -57,15 +74,15 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
+      <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme" />
+      <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme\basic\product" />
+      <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme\basic\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\user\WebstormProjects\fixinc\html" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme" />
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme\basic\product" />
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme\basic\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -78,7 +95,7 @@
       <updated>1601253260309</updated>
       <workItem from="1601253261681" duration="2051000" />
       <workItem from="1601255797229" duration="16618000" />
-      <workItem from="1601337411813" duration="887000" />
+      <workItem from="1601337411813" duration="7144000" />
     </task>
     <task id="LOCAL-00001" summary="merged">
       <created>1601254876416</created>
@@ -94,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601287258605</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="merged">
+      <created>1601342686270</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601342686270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,10 +158,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="628" y="195" key="#Options/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601253333935" />
-    <state x="539" y="86" key="CommitChangelistDialog2" timestamp="1601287256079">
+    <state x="539" y="86" key="CommitChangelistDialog2" timestamp="1601342684062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="539" y="86" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601287256079" />
+    <state x="539" y="86" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601342684062" />
     <state x="92" y="92" width="1736" height="856" key="DirDiffDialog" timestamp="1601275062256">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -154,21 +178,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601271388646" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601287260523">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601342698749">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601287260523" />
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601342532045">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601342698749" />
+    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601342730308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601342532045" />
+    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601342730308" />
     <state x="123" y="39" width="1621" height="929" key="find.popup" timestamp="1601286367378">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="123" y="39" width="1621" height="929" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601286367378" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601280220313">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601343192224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601280220313" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601343192224" />
   </component>
 </project>
