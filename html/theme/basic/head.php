@@ -29,7 +29,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
     	<div class="inner">
     	    <a href="http://www.clfa.or.kr/popup_fcsc.asp" class="topLink">대부중개업체등록조회</a>
     	    <div class="keyNumber">
-    	        <figure><img src="<?php echo G5_IMG_URL ?>/keyNumber.png" alt="keyNumber" /></figure>
+    	        <figure><img src="<?php echo G5_IMG_URL ?>/keyNumber.svg" alt="keyNumber" /></figure>
     	        <number>02-000-0000</number>
     	    </div>
     	    <!--
@@ -92,7 +92,7 @@ include_once(G5_LIB_PATH.'/popular.lib.php');
                     <li class="gnb_empty">메뉴 준비 중입니다.<?php if ($is_admin) { ?> <a href="<?php echo G5_ADMIN_URL; ?>/menu_list.php">관리자모드 &gt; 환경설정 &gt; 메뉴설정</a>에서 설정하실 수 있습니다.<?php } ?></li>
                 <?php } ?>
                 <a href="<?php echo G5_URL ?>/loanlimit" class="loan">
-                    <figure><img src="<?php echo G5_IMG_URL ?>/loan.png" alt="loan" /></figure>
+                    <figure><img src="<?php echo G5_IMG_URL ?>/loan.svg" alt="loan" /></figure>
                     <p>대출가능한도조회</p>
                 </a>
             </ul>

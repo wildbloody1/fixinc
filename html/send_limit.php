@@ -29,17 +29,13 @@ if(isset($_POST['email'])) {
     $first_name = $_POST['first_name']; // required
     $telephone = $_POST['telephone']; // not required
     $email_from = $_POST['email']; // required
-    $price = $_POST['job']; // required
-    $price = $_POST['income']; // required
+    $job = $_POST['job']; // required
+    $income = $_POST['income']; // required
 
     $error_message = "";
     $email_exp = '/^[A-Za-z0-9._%-]+@[A-Za-z0-9.-]+.[A-Za-z]{2,4}$/';
   if(!preg_match($email_exp,$email_from)) {
     $error_message .= 'The Email Address you entered does not appear to be valid.<br />';
-  }
-    
-  if(strlen($price) < 2) {
-    $error_message .= 'The Comments you entered do not appear to be valid.<br />';
   }
 
   if(strlen($error_message) > 0) {

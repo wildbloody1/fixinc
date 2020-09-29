@@ -22,7 +22,28 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53fb0e7b-df2b-42a2-a58e-7b1717e4a579" name="Default Changelist" comment="merged" />
+    <list default="true" id="53fb0e7b-df2b-42a2-a58e-7b1717e4a579" name="Default Changelist" comment="merged">
+      <change afterPath="$PROJECT_DIR$/html/img/keyNumber.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/keyNumber_w.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/html/img/loan.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/config.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/formmail.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/formmail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/formmail_limit.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/formmail_limit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/img/con_call.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/img/con_call.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/img/con_fss.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/img/con_fss.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/img/con_kakao.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/img/con_kakao.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/img/con_minwon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/img/con_minwon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/img/con_nateon.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/img/con_nateon.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/img/product01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/img/product01.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/img/product02.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/html/img/product02.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/send_limit.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send_limit.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/skin/content/basic/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/skin/content/basic/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/head.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/head.sub.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/head.sub.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/theme/basic/tail.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/tail.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +73,7 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/html/img" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -63,22 +84,22 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\fixinc\html" />
+      <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mastercool\WebstormProjects\fixinc\html\img" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme\basic\product" />
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme\basic\img" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html" />
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="" />
+      <changelist id="53fb0e7b-df2b-42a2-a58e-7b1717e4a579" name="Default Changelist" comment="merged" />
       <created>1601253260309</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -86,6 +107,7 @@
       <workItem from="1601253261681" duration="2051000" />
       <workItem from="1601255797229" duration="16618000" />
       <workItem from="1601337411813" duration="19960000" />
+      <workItem from="1601378012180" duration="8960000" />
     </task>
     <task id="LOCAL-00001" summary="merged">
       <created>1601254876416</created>
@@ -115,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601359119683</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="merged">
+      <created>1601377156498</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601377156498</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -139,9 +168,9 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="merged" />
     <MESSAGE value="메인 끝" />
-    <option name="LAST_COMMIT_MESSAGE" value="메인 끝" />
+    <MESSAGE value="merged" />
+    <option name="LAST_COMMIT_MESSAGE" value="merged" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Deployment" timestamp="1601254937130">
@@ -176,17 +205,19 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601271388646" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601359121622">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="989" y="341" key="Vcs.Push.Dialog.v2" timestamp="1601377159882">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="989" y="341" key="Vcs.Push.Dialog.v2/0.0.3440.1400/0.-1440.3440.1400@0.0.3440.1400" timestamp="1601377159882" />
     <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601359121622" />
     <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601342730308">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601342730308" />
-    <state x="123" y="39" width="1621" height="929" key="find.popup" timestamp="1601367903076">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="220" y="53" width="1581" height="1251" key="find.popup" timestamp="1601386439842">
+      <screen x="0" y="0" width="3440" height="1400" />
     </state>
+    <state x="220" y="53" width="1581" height="1251" key="find.popup/0.0.3440.1400/0.-1440.3440.1400@0.0.3440.1400" timestamp="1601386439842" />
     <state x="123" y="39" width="1621" height="929" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601367903076" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601363823267">
       <screen x="0" y="0" width="1920" height="1040" />

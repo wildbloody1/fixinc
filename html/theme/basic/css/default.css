@@ -98,12 +98,17 @@ border:1px solid #558ab7 !important;
 }
 #tnb .inner .keyNumber figure {
   display: inline-block;
+  width: 20px;
   margin-right: 5px;
+}
+#tnb .inner .keyNumber figure img {
+  width: 100%;
 }
 #tnb .inner .keyNumber number {
   line-height: 20px;
   font-size: 15px;
   font-weight: 900;
+  color: #323232;
 }
 
 #hd_wrapper { position:relative; margin:0 auto; ;zoom:1 }
@@ -154,7 +159,11 @@ border:1px solid #558ab7 !important;
 }
 #gnb #gnb_1dul a.loan figure {
   display: inline-block;
+  width: 26px;
   margin-right: 5px;
+}
+#gnb #gnb_1dul a.loan figure img {
+  width: 100%;
 }
 #gnb #gnb_1dul a.loan p {
   display: inline-block;
@@ -264,9 +273,13 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
   display:block;visibility:hidden;clear:both;content:"";
 }
 #content .product-box a {
+  width: 490px;
   float: left;
   opacity: 1;
   transition: 0.2s all ease-in-out;
+}
+#content .product-box a img {
+  width: 100%;
 }
 #content .product-box a + a {
   margin-left: 20px;
@@ -294,8 +307,13 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
   margin: 0 0 5px;
 }
 #content .content-box > figure {
+  width: 330px;
   float: left;
   margin-left: 5px;
+}
+#content .content-box > figure img {
+  width: 100%;
+  height: 205px;
 }
 
 .lt_wr {width:32%}
@@ -599,7 +617,7 @@ a.btn_admin,.btn_admin {display:inline-block;color:#73b27c;text-decoration:none;
 .tbl_head01 thead th input {vertical-align:top} /* middle 로 하면 게시판 읽기에서 목록 사용시 체크박스 라인 깨짐 */
 .tbl_head01 tfoot th, .tbl_head01 tfoot td {padding:10px 0;border-top:1px solid #c1d1d5;border-bottom:1px solid #c1d1d5;background:#d7e0e2;text-align:center}
 .tbl_head01 tbody th {padding:8px 0;border-bottom:1px solid #e8e8e8}
-`.tbl_head01 td {color:#666;padding:10px 5px;border-top:1px solid #ecf0f1;border-bottom:1px solid #ecf0f1;line-height:1.4em;height:60px;word-break:break-all}
+.tbl_head01 td {color:#666;padding:10px 5px;border-top:1px solid #ecf0f1;border-bottom:1px solid #ecf0f1;line-height:1.4em;height:60px;word-break:break-all}
 .tbl_head01 tbody tr:hover td {background:#fafafa}
 .tbl_head01 a:hover {text-decoration:underline}
 
@@ -753,3 +771,238 @@ box-sizing:content-box;
 /* Mobile화면으로 */
 #device_change {display:block;margin:0.3em;padding:0.5em 0;border:1px solid #eee;border-radius:2em;background:#fff;color:#000;font-size:2em;text-decoration:none;text-align:center}
 
+
+
+@media screen and (max-width: 600px) {
+
+  #hd, #wrapper, #ft {
+    min-width: auto;
+  }
+
+  #tnb .inner {
+    width: 100%;
+    padding: 0 20px;
+  }
+  #tnb .inner .topLink {
+    font-size: 14px;
+  }
+  #tnb .inner .keyNumber number {
+    font-size: 13px;
+  }
+
+  #logo {
+    padding: 40px 0;
+  }
+  #logo a {
+    display: block;
+    width: 255px;
+    margin: 0 auto;
+  }
+  #logo a img {
+    width: 100%;
+  }
+  #logo a h3 {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+  #gnb #gnb_1dul {
+    width: 100%;
+    padding-left: 10px;
+  }
+  #gnb .gnb_1dli {
+    margin-right: 0;
+  }
+  .gnb_1da {
+    font-size: 14px;
+    padding: 0 10px;
+  }
+  #gnb #gnb_1dul a.loan {
+    padding: 15px;
+  }
+  #gnb #gnb_1dul a.loan figure {
+    width: 20px;
+  }
+  #gnb #gnb_1dul a.loan p {
+    line-height: 20px;
+    font-size: 14px;
+  }
+
+
+  #content {
+    width: 100%;
+    padding: 0;
+  }
+  #content .product-box {
+    padding: 10px 10px 0;
+  }
+  #content .product-box a {
+    width: 100%;
+    float: none;
+  }
+  #content .product-box a + a {
+    margin: 5px 0 0;
+  }
+  #content .product-box a img {
+    width: 100%;
+  }
+  #content .content-box {
+    padding: 10px;
+  }
+  #content .contactLink {
+    width: 100%;
+  }
+  #content .contactLink li {
+    width: 49%;
+    margin: 0 2% 2% 0;
+  }
+  #content .contactLink li img {
+    width: 100%;
+  }
+  #content .content-box > figure {
+    width: 100%;
+    float: none;
+    margin: 0;
+  }
+  #content .content-box > figure img {
+    width: 100%;
+    height: auto;
+  }
+
+  a.btn_admin, .btn_admin {
+    font-size: 14px;
+  }
+  #container_title {
+    width: 100%;
+    padding: 30px 0;
+  }
+  #container_title span {
+    font-size: 20px;
+  }
+
+  #product_list {
+    display: block;
+    padding: 0 20px;
+  }
+  #product_list dd:first-child {
+    margin: 0 0 20px;
+  }
+  #product_list dd table caption {
+    line-height: 40px;
+    font-size: 18px;
+  }
+
+  #formWrap {
+    padding: 50px 0;
+  }
+  #formWrap .wrap table {
+    width: 80%;
+  }
+
+  #limitWrap {
+    width: 100%;
+    margin: 0 auto 50px;
+  }
+
+  #bo_list, #bo_w, #bo_v {
+    width: 100% !important;
+    padding: 0 10px;
+  }
+  #bo_list table thead th:nth-child(2),
+  #bo_list table thead th:nth-child(4),
+  #bo_list table thead th:nth-child(5),
+  #bo_list table .td_num2,
+  #bo_list table .td_name,
+  #bo_list table .td_num {
+    display: none;
+  }
+  #bo_list table .td_subject {
+    padding: 0 10px !important;
+  }
+
+  #ft_top {
+    padding: 30px 0;
+  }
+  #ft_top dl {
+    width: 100%;
+  }
+  #ft_top dl dt {
+    line-height: 18px;
+    font-size: 11px;
+    letter-spacing: -1px;
+  }
+  #ft_top dl dd {
+    line-height: 24px;
+    font-size: 13px;
+    letter-spacing: -0.5px;
+  }
+
+  #ft_wt {
+    width: 100%;
+    padding: 0 20px;
+  }
+  #ft_wt .ft_link {
+    float: none;
+  }
+  #ft_wt .ft_link li {
+    font-size: 13px;
+  }
+  #ft_wt .ft_link li a {
+    text-align: center;
+    padding: 0 10px 0 0;
+  }
+  #ft_wt .ft_link li + li a {
+    padding: 0 10px;
+  }
+  #ft_wt .ft_link li + li {
+    margin: 0;
+  }
+  #ft_wt .ft_keyNumber {
+    height: auto;
+    padding: 10px 0 20px;
+    float: none;
+  }
+  #ft_wt .ft_keyNumber figure {
+    width: 30px;
+    margin-right: 10px;
+  }
+  #ft_wt .ft_keyNumber figure img {
+    width: 100%;
+  }
+  #ft_wt .ft_keyNumber number {
+    line-height: 30px;
+    font-size: 20px;
+  }
+  #ft_wb .info {
+    width: 100%;
+    padding: 20px 20px 0;
+  }
+  #ft_wb .info li {
+    line-height: 20px;
+    font-size: 13px;
+    padding: 0 30px 0 0;
+  }
+  #ft_wb .info li:after {
+    width: 30px;
+    line-height: 20px;
+    font-size: 13px;
+  }
+  #ft_wb .info li:nth-child(2):after,
+  #ft_wb .info li:nth-child(3):after,
+  #ft_wb .info li:nth-child(4):after,
+  #ft_wb .info li:nth-child(5):after,
+  #ft_wb .info li:last-child:after {
+    display: none;
+  }
+  #ft_copy {
+    width: 100%;
+    padding: 15px 20px 70px;
+  }
+  #ft_copy .adm_login {
+    top: auto;
+    bottom: 20px;
+    left: 20px;
+    right: auto;
+  }
+
+
+}

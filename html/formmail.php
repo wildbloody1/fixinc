@@ -31,6 +31,16 @@ return $('#accept-box').attr('checked');
 #contactform .btn_submit { padding: 0; }
 #contactform #submitter { height: 40px; font-size: 16px; color:#fff; background:#323232; transition: 0.2s all ease-in-out; }
 #contactform #submitter:hover { background: #73b27c; }
+
+@media screen and (max-width: 600px) {
+.wrap { width: 100%; }
+#contactform table { width: 80%; margin: 0 auto; }
+#contactform thead td { font-size: 20px; }
+#contactform tbody tr:first-child th, tbody tr:first-child td { height: 50px; padding: 0 10px; }
+#contactform td input, td select { background: transparent; }
+#contactform th label.agreecheck { font-size: 11px; }
+#contactform .privacyBtn { font-size: 11px; }
+}
 </style>
 </head>
 
@@ -81,7 +91,7 @@ return $('#accept-box').attr('checked');
 
 <tr>
 <th scope="row">
-<label for="email">이메일 주소</label></th>
+<label for="email">이메일</label></th>
 <td>
 <input name="email"  type="text" class="ipt" maxlength="20" required >
 </td>

@@ -18,16 +18,25 @@ return $('#accept-box').attr('checked');
 #loanlimitform table { width: 100%; color: #323232; padding: 40px 35px; border-spacing: 0; border: 1px solid #e6e6e6; background: #fff;}
 #loanlimitform th { width: 25%; height: 50px; color: #323232; text-align: left; padding: 10px; }
 #loanlimitform th label { display: block; line-height: 32px; font-size: 14px; font-weight: 500; }
-#loanlimitform th input[type="checkbox"], #loanlimitform td input[type="radio"] { width: 16px; height: 16px; margin-right: 5px; vertical-align: middle; }
+#loanlimitform th input[type="checkbox"], #loanlimitform td input[type="rad`io"] { width: 16px; height: 16px; margin-right: 5px; vertical-align: middle; }
 #loanlimitform th label.agreecheck { display: inline-block; font-size: 13px; cursor: pointer; vertical-align: middle; }
 #loanlimitform td { padding: 0 10px; border-spacing: 0; }
-#loanlimitform td label { display: inline-block; line-height: 16px; font-size: 13px; cursor: pointer; margin-right: 5px; vertical-align: middle; }
+#loanlimitform td label { display: inline-block; line-height: 32px; font-size: 13px; cursor: pointer; margin-right: 10px; vertical-align: middle; }
+#loanlimitform td label input { width: 18px; line-height: 32px; margin-right: 5px; }
 #loanlimitform td input, td select { width: 100%; height: 32px; font-size: 14px; color: #323232; padding: 0 10px; border: 1px solid #e6e6e6; border-radius: 3px; }
 #loanlimitform .privacyBtn { line-height: 20px; font-size: 12px; font-weight: 400; color: #969696; padding: 5px 15px; float: right; vertical-align: middle; border: 1px solid #e6e6e6; border-radius: 3px; transition: 0.2s all ease-in-out; }
 #loanlimitform .privacyBtn:hover { color: #323232; border-color: #323232; }
-#loanlimitform .btn_submit { padding: 0; }
+#loanlimitform .btn_submit { padding: 0 10px; }
 #loanlimitform #submitter { height: 40px; font-size: 16px; color:#fff; background:#323232; transition: 0.2s all ease-in-out; }
 #loanlimitform #submitter:hover { background: #73b27c; }
+
+@media screen and (max-width: 600px) {
+.wrap { width: 100%; }
+#loanlimitform table { width: 90%; margin: 0 auto; padding: 25px 15px; }
+#loanlimitform td input, td select { height: 28px; }
+#loanlimitform th label, #loanlimitform td label { line-height: 28px; }
+#loanlimitform td label input { font-size: 13px; }
+}
 </style>
 </head>
 
@@ -54,7 +63,7 @@ return $('#accept-box').attr('checked');
 
 <tr>
 <th scope="row">
-<label for="email">이메일 주소</label></th>
+<label for="email">이메일</label></th>
 <td>
 <input name="email" type="text" class="ipt" maxlength="20" required >
 </td>
