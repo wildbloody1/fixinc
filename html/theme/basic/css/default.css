@@ -444,7 +444,11 @@ box-shadow:0 2px 5px rgba(0,0,0,0.2)}
 }
 #ft_wt .ft_keyNumber figure {
   display: inline-block;
+  width: 20px;
   margin-right: 5px;
+}
+#ft_wt .ft_keyNumber figure img {
+  width: 100%;
 }
 #ft_wt .ft_keyNumber number {
   line-height: 20px;
