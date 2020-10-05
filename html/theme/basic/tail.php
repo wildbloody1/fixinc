@@ -46,7 +46,7 @@ if (G5_IS_MOBILE) {
         </ul>
         <div class="ft_keyNumber">
             <figure><img src="<?php echo G5_IMG_URL ?>/keyNumber_w.svg" alt="keyNumber" /></figure>
-            <number>02-000-0000</number>
+            <number>010-5566-2358</number>
         </div>
 	</div>
 	<div id="ft_wb">
