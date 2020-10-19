@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
      
     
-	$email_to = "mastercool@naver.com";
+	$email_to = "wp5299@naver.com";
 	$email_subject = "[픽스대부중개] 대출가능 한도조회 신청";
 	$email_subject = '=?UTF-8?B?'.base64_encode($email_subject).'?=';
 

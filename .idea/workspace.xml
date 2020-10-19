@@ -22,10 +22,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="">
+    <list default="true" id="53fb0e7b-df2b-42a2-a58e-7b1717e4a579" name="Default Changelist" comment="모바일 미디어 쿼리 업데이트">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05__9_35__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05__9_35__Default_Changelist_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/theme/basic/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html/theme/basic/tail.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/theme/basic/tail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/html/send_limit.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send_limit.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
