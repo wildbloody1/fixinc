@@ -23,8 +23,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05__9_35__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05_오전_9_35_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/send_limit.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send_limit.php" afterDir="false" />
@@ -93,7 +91,7 @@
       <workItem from="1601255797229" duration="16618000" />
       <workItem from="1601337411813" duration="19960000" />
       <workItem from="1601378012180" duration="8960000" />
-      <workItem from="1613699893255" duration="801000" />
+      <workItem from="1613699893255" duration="3961000" />
     </task>
     <task id="LOCAL-00001" summary="merged">
       <created>1601254876416</created>
@@ -151,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1613700492357</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="이메일 수정">
+      <created>1613700738407</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1613700738407</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +183,7 @@
     <MESSAGE value="메인 끝" />
     <MESSAGE value="merged" />
     <MESSAGE value="대표번호 수정" />
-    <option name="LAST_COMMIT_MESSAGE" value="대표번호 수정" />
+    <MESSAGE value="이메일 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="이메일 수정" />
   </component>
 </project>

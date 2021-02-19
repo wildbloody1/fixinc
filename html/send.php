@@ -3,7 +3,7 @@
 if(isset($_POST['email'])) {
      
     
-	$email_to = "kkallisma2@nate.com";
+	$email_to = "kkallisma2@naver.com";
 	$email_subject = "[픽스대부중개] 1:1 안심상담 신청";
 	$email_subject = '=?UTF-8?B?'.base64_encode($email_subject).'?=';
 
