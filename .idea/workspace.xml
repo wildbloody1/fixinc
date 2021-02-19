@@ -22,8 +22,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="53fb0e7b-df2b-42a2-a58e-7b1717e4a579" name="Default Changelist" comment="모바일 미디어 쿼리 업데이트">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05__9_35__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05__9_35__Default_Changelist_.xml" afterDir="false" />
+    <list default="true" id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05__9_35__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020-10-05_오전_9_35_[Default_Changelist]/shelved.patch" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/send.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/html/send_limit.php" beforeDir="false" afterPath="$PROJECT_DIR$/html/send_limit.php" afterDir="false" />
@@ -69,9 +70,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
       <recent name="C:\Users\mastercool\WebstormProjects\fixinc\html\img" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html" />
-      <recent name="C:\Users\user\WebstormProjects\fixinc\html\img" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme" />
       <recent name="C:\Users\user\WebstormProjects\fixinc\html\theme\basic\product" />
     </key>
@@ -83,7 +84,7 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="53fb0e7b-df2b-42a2-a58e-7b1717e4a579" name="Default Changelist" comment="merged" />
+      <changelist id="56c64739-fd86-4189-8825-21d93ea0548b" name="Default Changelist" comment="" />
       <created>1601253260309</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -92,6 +93,7 @@
       <workItem from="1601255797229" duration="16618000" />
       <workItem from="1601337411813" duration="19960000" />
       <workItem from="1601378012180" duration="8960000" />
+      <workItem from="1613699893255" duration="801000" />
     </task>
     <task id="LOCAL-00001" summary="merged">
       <created>1601254876416</created>
@@ -135,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601858578211</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="대표번호 수정">
+      <created>1601858646832</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601858646832</updated>
+    </task>
+    <task id="LOCAL-00008" summary="대표번호 수정">
+      <created>1613700492357</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1613700492357</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,58 +177,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="메인 끝" />
     <MESSAGE value="merged" />
-    <option name="LAST_COMMIT_MESSAGE" value="merged" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="552" y="178" key="#Deployment" timestamp="1601254937130">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="552" y="178" key="#Deployment/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601254937130" />
-    <state x="711" y="343" key="#Notifications" timestamp="1601342572844">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="711" y="343" key="#Notifications/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601342572844" />
-    <state x="628" y="195" key="#Options" timestamp="1601253333935">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="628" y="195" key="#Options/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601253333935" />
-    <state x="539" y="86" key="CommitChangelistDialog2" timestamp="1601858577253">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="539" y="86" key="CommitChangelistDialog2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601858577253" />
-    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog" timestamp="1601275062256">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="92" y="92" width="1736" height="856" key="DirDiffDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601275062256" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1601255049283">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601255049283" />
-    <state x="752" y="386" key="Github.CreatePullRequestDialog" timestamp="1601254973761">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="752" y="386" key="Github.CreatePullRequestDialog/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601254973761" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1601271388646">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="461" y="164" key="SettingsEditor/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601271388646" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1601858579525">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="989" y="341" key="Vcs.Push.Dialog.v2/0.0.3440.1400/0.-1440.3440.1400@0.0.3440.1400" timestamp="1601377159882" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601858579525" />
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601342730308">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="775" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601342730308" />
-    <state x="220" y="53" width="1581" height="1251" key="find.popup" timestamp="1601386439842">
-      <screen x="0" y="0" width="3440" height="1400" />
-    </state>
-    <state x="220" y="53" width="1581" height="1251" key="find.popup/0.0.3440.1400/0.-1440.3440.1400@0.0.3440.1400" timestamp="1601386439842" />
-    <state x="123" y="39" width="1621" height="929" key="find.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601367903076" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1601363823267">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1601363823267" />
+    <MESSAGE value="대표번호 수정" />
+    <option name="LAST_COMMIT_MESSAGE" value="대표번호 수정" />
   </component>
 </project>
